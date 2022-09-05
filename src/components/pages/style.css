@@ -1,0 +1,126 @@
+/*********** Nav Bar **********/
+.navbar {
+    position: fixed;
+    padding: 5px;
+    background: #ffffffe3!important;
+}
+#nav-dropdown-item{
+  color: rgb(15, 15, 15);
+  background-color: white;
+  border-radius: 2px;
+}
+
+#nav-dropdown-item:hover{
+font-weight: 500;
+background-color:#1a1a1a33;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block !important;
+}
+
+.navbar .navbar-brand {
+    color: #000000;
+    font-size: 30px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #1a1a1a;
+    transition: .02s ease-in-out;
+}
+
+.navbar .navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-nav input{
+ background-color: transparent;
+ border: none;
+ padding: 2px;
+}
+
+.navbar-nav input:focus{
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #1a1a1a;
+ }
+
+ .navbar .navbar-nav .nav-link.active,
+  .navbar .navbar-nav .nav-link:hover{
+    font-weight: bold;
+  }
+
+  .nav-tabs .nav-link {
+    color: #087c72;
+    font-weight: 600;
+  }
+
+
+@media (min-width: 992px) {
+    .navbar {
+        position: relative;
+        width: 100%;
+        background:#ffffffee!important;
+    }
+    
+    .navbar.nav-sticky {
+        padding: 10px 60px;
+        background: #ffffffe3 !important;
+    }
+        
+    .navbar a.nav-link {
+        padding: 5px 10px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 991.98px) {   
+    .navbar {
+      position: relative;
+      overflow: hidden;
+      background: #ffffffee!important;
+    }
+    
+    .navbar a.nav-link {
+        padding: 5px;
+    }
+}
+
+/*********** Side Bar **********/
+#sidebar{
+    min-height: 100vh;
+    min-width: 280px;
+}
+.tab-content {
+    flex: 1;
+  }
+  
+.sidebar-nav {
+    min-width:  90%;
+    margin-top: 30px;
+}
+
+.pill {
+    margin: 2px;
+}
+.head{
+    color: #524f4f !important;
+    font-weight: bold;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.sidebar .sidebar-nav .nav-link.active,
+  .sidebar .sidebar-nav .nav-link:hover{
+    font-weight: bold;
+    background-color: #dafaf8;
+    border-radius: 10px;
+  }

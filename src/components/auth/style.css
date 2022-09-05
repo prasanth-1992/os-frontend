@@ -1,0 +1,120 @@
+body {
+    background-color: #282c34c4;
+  }
+  
+  .loginBox {
+    margin: 30px 10px;
+    padding: 15px;
+    height: auto;
+    position: center;
+    min-height: 400px;
+    background: #1a2226c2;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.loginKey i{
+    height: 100px;
+    font-size: 80px;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.loginTitle {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ECF0F5;
+}
+
+.loginForm {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.loginInput {
+    background-color: transparent;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: aquamarine;
+}
+
+.loginInput:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0DB8DE;
+    outline: none;
+    background-color: transparent;
+    color: rgb(6, 141, 96);
+}
+
+.textInput {
+    background-color: transparent;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    color: rgb(1, 80, 54);
+}
+
+.textInput:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0DB8DE;
+    outline: none;
+    background-color: transparent;
+    color: rgb(2, 53, 36);
+}
+
+.inputLabel {
+    font-size: 14px;
+    color: #6C6C6C;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.loginButton button {
+ color: #0DB8DE;
+ border-radius: 10px;
+ border: 2px solid #0DB8DE;
+ font-size: 20px;
+ padding: 5px 20px;
+ background-color: transparent;
+ font-weight: bold;
+}
+
+.loginButton button:hover {
+  color: #282c34;
+  background-color: #0DB8DE;
+ }
+
+ .forgetLink{
+     align-items: center;
+     display: inline;
+     color: aqua;
+ }
+ .forgetLink a{
+    color: aqua;
+}
+
+.forgetLink a:hover{
+    color: #0DB8DE;
+}
+
